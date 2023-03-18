@@ -1,0 +1,29 @@
+name: Red Wing
+homepage: redwingshoes.com
+tags:
+- Shoes
+- Boots
+- Sneakers
+- Casual
+- Work
+- Safety
+- Winter
+- Midwest
+- Made in the USA
+- Goodyear Welt
+widths:
+- name: AAA
+  models: some
+  stocked: true
+- name: AA
+  models: some
+  stocked: true
+- name: A
+  models: some
+  stocked: true
+- name: B
+  models: some
+  stocked: true
+- name: C
+  models: some
+  stocked: true
