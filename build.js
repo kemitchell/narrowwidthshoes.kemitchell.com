@@ -63,7 +63,7 @@ function renderEntry ({ file, name, homepage, tags, widths, updated }) {
   <ul class=tags>${tags.map(tag => `<li>${escape(tag)}</li>`).join('')}</ul>
   ${renderWidths(widths)}
   <p class=updated>Last Updated ${escape(new Date(updated).toLocaleDateString('en-us', { timeZone: 'UTC', dateStyle: 'long' }))}</p>
-  <p class=edit><a href="https://github.com/kemitchell/narrowwidthshoes.kemitchell.com/edit/main/${file}">Edit on GitHub</a></p>
+  <p class=edit><a href="https://github.com/kemitchell/narrowwidthshoes.kemitchell.com/edit/main/${file}">Edit data file on GitHub</a></p>
 </li>
   `.trim()
 }
