@@ -1,0 +1,22 @@
+name: Wesco
+homepage: wescoboots.com
+tags:
+- Boots
+- Work
+- Casual
+- Safety
+- Winter
+- Pacific Northwest
+- Made in the USA
+- Custom
+- Stitchdown
+widths:
+- name: A
+  stocked: false
+  models: fall
+- name: B
+  stocked: false
+  models: fall
+- name: C
+  stocked: false
+  models: fall
