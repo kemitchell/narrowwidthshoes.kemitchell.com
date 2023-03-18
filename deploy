@@ -1,0 +1,4 @@
+#!/bin/sh
+npm run build
+site=narrowwidthshoes.kemitchell.com
+scp index.html styles.css "$site:/var/www/$site"
