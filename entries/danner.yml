@@ -11,6 +11,7 @@ tags:
 - Made in the USA
 widths:
 - name: B
+  stocked: true
   models:
   - name: Wildland Tactical Firefighter Smooth-Out
     page: https://www.danner.com/men/all-footwear/wildland-tactical-firefighter-8-black-smooth-out.html
