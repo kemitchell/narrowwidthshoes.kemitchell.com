@@ -1,0 +1,9 @@
+name: Brooks
+homepage: brooksrunning.com
+tags:
+- Shoes
+- Athletic
+widths:
+- name: Men's Narrow
+  stocked: true
+  models: some
