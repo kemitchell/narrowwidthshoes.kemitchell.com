@@ -37,6 +37,10 @@ th:last-child {
   padding-right: 1ex;
 }
 
+.tags > li:before {
+  content: '🏷️ ';
+}
+
 .updated, .edit {
   font-size: 85%;
   margin: 0;
