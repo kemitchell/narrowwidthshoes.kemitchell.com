@@ -1,5 +1,11 @@
-td, th {
-  padding: 1ex;
+h2 {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+tbody td, tbody th,
+thead td, thead th {
+  padding: 0;
 }
 
 td:first-child,
@@ -22,7 +28,7 @@ th:last-child {
 
 .entries > li {
   border: 1px solid black;
-  padding: 0 1em 1em 1em;
+  padding: 1em;
   margin: 1rem 0;
 }
 
