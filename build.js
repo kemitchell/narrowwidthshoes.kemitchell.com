@@ -24,40 +24,7 @@ fs.writeFileSync('index.html', `
     <meta name=viewport content="width=device-width, initial-scale=1">
     <title>Narrow-Width Shoes</title>
     <link rel=stylesheet href=https://css.kemitchell.com/readable.css>
-    <style>
-td, th {
-  padding: 1ex;
-}
-
-td:first-child,
-th:first-child {
-  padding-left: 0;
-}
-
-td:last-child,
-th:last-child {
-  padding-right: 0;
-}
-
-.entries,
-.tags,
-.models {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-.entries > li {
-  border: 1px solid black;
-  padding: 0 1em 1em 1em;
-  margin: 1rem 0;
-}
-
-.tags > li {
-  display: inline-block;
-  padding-right: 1ex;
-}
-    </style>
+    <link rel=stylesheet href=styles.css>
   </head>
   <body>
     <header>
