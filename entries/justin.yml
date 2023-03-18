@@ -1,0 +1,11 @@
+name: Justin
+homepage: justinboots.com
+tags:
+- Boots
+- Western
+- Work
+widths:
+- name: B
+  models:
+  - name: Rush
+    page: https://www.justinboots.com/en/rush-11-inch-waterproof-work-boot-15490.html
