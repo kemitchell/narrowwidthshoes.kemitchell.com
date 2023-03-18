@@ -35,6 +35,8 @@ fs.writeFileSync('index.html', `
   <body>
     <header>
       <h1>Narrow-Width Shoes</h1>
+      <p>This page lists companies offering shoes and boots in narrow mens widths. If you know of a company not listed here, <a href=mailto:kyle@kemitchell.com?subject=Narrow-Width%20Shoes>e-mail me about it at kyle@kemitchell.com</a>.</p>
+      <p>Note that the standard womens width is often the same B width as mens narrow. Unless your feet are longer than the whole womens range, you might find a womens size that fits you ideally. Just beware of subtle changes between mens and womens models. Companies sometimes skimp on womens versions.</p>
     </header>
     <nav>
       Jump To:
