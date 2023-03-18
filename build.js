@@ -1,4 +1,5 @@
 import escape from 'escape-html'
+import { spawnSync } from 'node:child_process'
 import fs from 'node:fs'
 import glob from 'glob'
 import yaml from 'js-yaml'
@@ -13,7 +14,12 @@ for (const [key, subschema] of Object.entries(widthProperties)) {
 }
 
 const entries = glob.sync('entries/*.yml')
-  .map(loadYAMLFile)
+  .map(file => {
+    const entry = loadYAMLFile(file)
+    entry.file = file
+    entry.updated = spawnSync('git', ['log', '-1', '--date=iso-strict', '--pretty="%ci"', file]).stdout.toString().trim()
+    return entry
+  })
   .sort(byName)
 
 fs.writeFileSync('index.html', `
@@ -47,13 +53,15 @@ function byName (a, b) {
   return a.name.toLowerCase().localeCompare(b.name.toLowerCase())
 }
 
-function renderEntry ({ name, homepage, tags, widths }) {
+function renderEntry ({ file, name, homepage, tags, widths, updated }) {
   return `
 <li id="${toID(name)}">
   <h2>${escape(name)}</h2>
   <a href="https://${escape(homepage)}">${escape(homepage)}</a>
   <ul class=tags>${tags.map(tag => `<li>${escape(tag)}</li>`).join('')}</ul>
   ${renderWidths(widths)}
+  <p class=updated>Last Updated ${escape(new Date(updated).toLocaleDateString('en-us', { timeZone: 'UTC', dateStyle: 'long' }))}</p>
+  <p class=edit><a href="https://github.com/kemitchell/narrowwidthshoes.kemitchell.com/edit/main/${file}">Edit on GitHub</a></p>
 </li>
   `.trim()
 }
