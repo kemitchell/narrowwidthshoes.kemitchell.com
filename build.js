@@ -70,18 +70,15 @@ function renderEntry ({ file, name, homepage, tags, widths, updated }) {
 
 function renderWidths (widths) {
   return `
-<!--<details>
-  <summary>Widths</summary>-->
-  <table class=widths>
-    <thead>
-      <tr>
-        <th>Width</th>
-      ${widthColumns.map(({ header }) => `<th>${escape(header)}</th>`).join('')}
-      </tr>
-    </thead>
-    ${widths.map(renderWidthRow).join('')}
-  </table>
-<!--</details>-->
+<table class=widths>
+  <thead>
+    <tr>
+      <th>Width</th>
+    ${widthColumns.map(({ header }) => `<th>${escape(header)}</th>`).join('')}
+    </tr>
+  </thead>
+  ${widths.map(renderWidthRow).join('')}
+</table>
   `.trim()
 }
 
