@@ -32,6 +32,10 @@ th:last-child {
   margin: 1rem 0;
 }
 
+.tags {
+  margin: 0.5rem 0;
+}
+
 .tags > li {
   display: inline-block;
   padding-right: 1ex;
