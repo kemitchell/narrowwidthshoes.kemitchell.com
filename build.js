@@ -89,8 +89,12 @@ function renderWidthRow (width) {
   <th>${escape(width.name)}</th>
   ${widthColumns.map(({ key, subschema }) => {
     if (subschema.type === 'boolean') {
-      const text = width[key] ? 'Yes' : 'No'
-      return `<td>${text}</td>`
+      const value = width[key]
+      let display
+      if (value === true) display = 'Yes'
+      else if (value === false) display = 'No'
+      else display = '?'
+      return `<td>${display}</td>`
     } else if (key === 'models') {
       const models = width[key]
       return typeof models === 'string'
