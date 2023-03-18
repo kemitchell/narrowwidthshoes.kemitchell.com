@@ -88,7 +88,7 @@ function renderWidths (widths) {
 function renderWidthRow (width) {
   return `
 <tr>
-  <th>${escape(width.name)}</th>
+  <td>${escape(width.name)}</td>
   ${widthColumns.map(({ key, subschema }) => {
     if (subschema.type === 'boolean') {
       const value = width[key]
