@@ -1,0 +1,43 @@
+type: object
+required: [name]
+additionalProperties: false
+properties:
+  name:
+    type: string
+    minLength: 1
+  homepage:
+    type: string
+    format: hostname
+  tags:
+    type: array
+    items:
+      type: string
+  widths:
+    type: array
+    items:
+      type: object
+      required: [name]
+      additionalProperties: false
+      properties:
+        name:
+          type: string
+          minLength: 1
+        stocked:
+          title: Kept in Stock
+          type: boolean
+        models:
+          title: Models
+          anyOf:
+          - const: some
+          - const: all
+          - type: array
+            items:
+              type: object
+              required: [name]
+              properties:
+                name:
+                  type: string
+                  minLength: 1
+                page:
+                  type: string
+                  format: url

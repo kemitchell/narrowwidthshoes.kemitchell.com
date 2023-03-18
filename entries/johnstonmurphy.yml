@@ -1,0 +1,12 @@
+name: Johnston & Murphy
+tags:
+- Shoes
+- Dress
+- Goodyear Welt
+homepage: johnstonmurphy.com
+widths:
+- name: B
+  stocked: true
+  models:
+  - name: Melton Cap Toe
+    page: https://www.johnstonmurphy.com/melton-cap-toe/2388.html

@@ -1,0 +1,32 @@
+name: Allen Edmonds
+homepage: allenedmonds.net
+tags:
+- Shoes
+- Boots
+- Sneakers
+- Dress
+- Casual
+- Winter
+- Midwest
+- Made in the USA
+- Stock
+- Goodyear Welt
+widths:
+- name: AAAA
+  models: some
+  stocked: true
+- name: AAA
+  models: some
+  stocked: true
+- name: AA
+  models: some
+  stocked: true
+- name: A
+  models: some
+  stocked: true
+- name: B
+  models: some
+  stocked: true
+- name: C
+  models: some
+  stocked: true

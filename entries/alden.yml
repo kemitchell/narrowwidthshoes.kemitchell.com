@@ -1,0 +1,24 @@
+name: Alden
+homepage: aldenshoe.net
+tags:
+- Shoes
+- Boots
+- Dress
+- Casual
+- Northeast
+- Made in the USA
+- Stock
+- Goodyear Welt
+widths:
+- name: AAAA
+  models: some
+- name: AAA
+  models: some
+- name: AA
+  models: some
+- name: A
+  models: some
+- name: B
+  models: some
+- name: C
+  models: all
