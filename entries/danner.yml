@@ -11,4 +11,20 @@ tags:
 - Made in the USA
 widths:
 - name: B
-  models: some
+  models:
+  - name: Wildland Tactical Firefighter Smooth-Out
+    page: https://www.danner.com/men/all-footwear/wildland-tactical-firefighter-8-black-smooth-out.html
+  - name: Wildland Tactical Firefighter
+    page: https://www.danner.com/men/all-footwear/wildland-tactical-firefighter-8-black.html
+  - name: Sierra
+    page: https://www.danner.com/men/all-footwear/sierra-8-brown-200g.html
+  - name: Acadia
+    page: https://www.danner.com/men/all-footwear/acadia-8-black.html
+  - name: Acadia Insulated 200G
+    page: https://www.danner.com/men/all-footwear/acadia-8-black-200g.html
+  - name: Acadia Insulated 400G
+    page: https://www.danner.com/men/all-footwear/acadia-8-black-400g.html
+  - name: Fort Lewis
+    page: https://www.danner.com/men/all-footwear/fort-lewis-10-black-200g.html
+  - name: Lookout
+    page: https://www.danner.com/men/all-footwear/lookout-ems-csa-side-zip-8-black-nmt.html
