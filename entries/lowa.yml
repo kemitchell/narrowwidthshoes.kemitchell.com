@@ -1,0 +1,21 @@
+name: LOWA
+homepage: lowaboots.com
+tags:
+- Boots
+- Shoes
+- Hiking
+- Made in Germany
+widths:
+- name: Narrow
+  stocked: true
+  models:
+  - name: Tibet LL
+    page: https://www.lowaboots.com/mens/backpacking/tibet-ll?v=43301
+  - name: Trekker
+    page: https://www.lowaboots.com/mens/clearance-room/trekker?v=32685
+  - name: Renegade GTX Mid Brown
+    page: https://www.lowaboots.com/mens/hiking/renegade-gtx-mid?v=29495
+  - name: Renegade GTX Mid Black
+    page: https://www.lowaboots.com/mens/hiking/renegade-gtx-mid?v=38852
+  - name: Renegade GTX Lo
+    page: https://www.lowaboots.com/mens/hiking/renegade-gtx-lo?v=33364
