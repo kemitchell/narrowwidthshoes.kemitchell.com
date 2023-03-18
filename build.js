@@ -1,8 +1,9 @@
+import * as commonmark from 'commonmark'
 import escape from 'escape-html'
-import { spawnSync } from 'node:child_process'
 import fs from 'node:fs'
 import glob from 'glob'
 import yaml from 'js-yaml'
+import { spawnSync } from 'node:child_process'
 
 const schema = loadYAMLFile('schema.yml')
 
@@ -35,8 +36,7 @@ fs.writeFileSync('index.html', `
   <body>
     <header>
       <h1>Narrow-Width Shoes</h1>
-      <p>This page lists companies offering shoes and boots in narrow mens widths. If you know of a company not listed here, <a href=mailto:kyle@kemitchell.com?subject=Narrow-Width%20Shoes>e-mail me about it at kyle@kemitchell.com</a>.</p>
-      <p>Note that the standard womens width is often the same B as mens narrow. Unless your feet are longer than the whole womens range, you might find a womens size that fits you ideally. Just beware of subtle changes between mens and womens models. Companies sometimes skimp on womens versions.</p>
+      ${renderMarkdown(fs.readFileSync('header.md', 'utf8'))}
     </header>
     <nav>
       Jump To:
@@ -124,4 +124,11 @@ function loadYAMLFile (file) {
 
 function toID (string) {
   return string.toLowerCase().replace(/[^a-z ]/g, '').replace(/ /g, '-')
+}
+
+function renderMarkdown (string) {
+  const reader = new commonmark.Parser({ smart: true })
+  const writer = new commonmark.HtmlRenderer()
+  const parsed = reader.parse(string)
+  return writer.render(parsed)
 }
