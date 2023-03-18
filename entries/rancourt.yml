@@ -1,0 +1,14 @@
+name: Rancourt & Co.
+homepage: rancourtandcompany.com
+tags:
+- Shoes
+- Boots
+- Dress
+- Casual
+- Northeast
+- Made in the USA
+- Custom
+widths:
+- name: B
+  stocked: true
+  models: some
