@@ -1,0 +1,20 @@
+name: Frank’s
+homepage: franksboots.com
+tags:
+- Shoes
+- Boots
+- Work
+- Casual
+- Safety
+- Winter
+- Pacific Northwest
+- Made in the USA
+- Custom
+- Stitchdown
+widths:
+- name: A
+  models: all
+- name: B
+  models: all
+- name: C
+  models: all
