@@ -1,0 +1,12 @@
+name: Ariat
+homepage: ariat.com
+tags:
+- Boots
+- Western
+- Work
+- Goodyear
+- Molded
+widths:
+- name: B
+  stocked: true
+  models: some
