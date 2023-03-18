@@ -23,7 +23,7 @@ properties:
           type: string
           minLength: 1
         stocked:
-          title: Kept in Stock
+          title: Stocked
           type: boolean
         models:
           title: Models
