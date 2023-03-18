@@ -1,0 +1,10 @@
+name: Birkenstock
+homepage: birkenstock.com
+tags:
+- Sandals
+- Shoes
+- Casual
+widths:
+- name: Medium/Narrow
+  stocked: true
+  models: all
