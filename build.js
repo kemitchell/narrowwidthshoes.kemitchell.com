@@ -40,7 +40,7 @@ fs.writeFileSync('index.html', `
     </header>
     <nav>
       Jump To:
-      ${entries.map(({ name }) => `<a href="#${toID(name)}">${escape(name)}</a>`).join(', ')}
+      ${entries.map(({ name }) => `<a href="#${toID(name)}">${escape(name)}</a>`).join('')}
     </nav>
     <main>
       <ol class=entries>
