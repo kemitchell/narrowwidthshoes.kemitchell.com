@@ -120,7 +120,10 @@ function loadYAMLFile (file) {
 }
 
 function toID (string) {
-  return string.toLowerCase().replace(/[^a-z ]/g, '').replace(/ /g, '-')
+  return string.toLowerCase()
+    .replace(/é/g, 'e')
+    .replace(/[^a-z ]/g, '')
+    .replace(/ /g, '-')
 }
 
 function renderMarkdown (string) {
