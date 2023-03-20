@@ -1,0 +1,16 @@
+name: San Antonio Shoemakers
+homepage: sasshoes.com
+tags:
+- Shoes
+- Boots
+- Dress
+- Casual
+- Athletic
+- Made in the USA
+widths:
+- name: Narrow
+  stocked: true
+  models: some
+- name: Slim
+  stocked: true
+  models: some
