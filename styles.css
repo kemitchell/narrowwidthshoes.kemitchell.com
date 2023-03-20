@@ -3,6 +3,10 @@ h2 {
   margin-top: 0;
 }
 
+nav a {
+  display: inline-block;
+}
+
 tbody td, tbody th,
 thead td, thead th {
   padding: 0;
