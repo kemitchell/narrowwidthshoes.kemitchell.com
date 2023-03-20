@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>Shoe Sizing</title>
-  <link rel=stylesheet href=sizing.css>
+  <link rel="stylesheet" href="sizing.css">
 </head>
 <body>
   <header>
@@ -11,28 +11,37 @@
   </header>
   <main>
     <h2>Brannock Device</h2>
-    <table class=brannock>
+    <table class="brannock">
+      <colgroup>
+        <col class="size">
+        <col span="1" class="foot">
+        <col span="1" class="last">
+        <col span="2" class="arch">
+        <col span="6" class="narrow">
+        <col span="1" class="medium">
+        <col span="6" class="wide">
+      </colgroup>
       <thead>
         <tr>
-          <th rowspan="2">Size</th>
-          <th colspan="4">Length</th>
-          <th colspan="11">Width</th>
+          <th scope="col" rowspan="2">Size</th>
+          <th scope="col" colspan="4">Length</th>
+          <th scope="col" colspan="11">Width</th>
         </tr>
         <tr>
-          <th>Foot</th>
-          <th>Last</th>
-          <th colspan="2">Arch</th>
-          <th>AAAA</th>
-          <th>AAA</th>
-          <th>AA</th>
-          <th>A</th>
-          <th>B</th>
-          <th>C</th>
-          <th>D</th>
-          <th>E</th>
-          <th>EE</th>
-          <th>EEE</th>
-          <th>EEEE</th>
+          <th scope="col">Foot</th>
+          <th scope="col">Last</th>
+          <th scope="col" colspan="2">Arch</th>
+          <th scope="col">AAAA</th>
+          <th scope="col">AAA</th>
+          <th scope="col">AA</th>
+          <th scope="col">A</th>
+          <th scope="col">B</th>
+          <th scope="col">C</th>
+          <th scope="col">D</th>
+          <th scope="col">E</th>
+          <th scope="col">EE</th>
+          <th scope="col">EEE</th>
+          <th scope="col">EEEE</th>
         </tr>
       </thead>
       <tbody>

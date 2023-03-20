@@ -27,3 +27,7 @@ col:hover {
 :target {
   background: lightblue;
 }
+
+.narrow {
+  background: #eee;
+}

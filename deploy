@@ -3,4 +3,4 @@
 npm run build
 tidy -modify -indent --indent-spaces 2 -quiet --tidy-mark no --wrap 0 --add-meta-charset yes index.html
 site=narrowwidthshoes.kemitchell.com
-scp index.html styles.css "$site:/var/www/$site"
+scp ./*.html ./*.css "$site:/var/www/$site"
