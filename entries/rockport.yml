@@ -1,0 +1,11 @@
+name: Rockport
+homepage: rockport.com
+tags:
+- Shoes
+- Boots
+- Casual
+- Dress
+widths:
+- name: Narrow
+  stocked: true
+  models: some
