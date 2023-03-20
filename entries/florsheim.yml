@@ -1,0 +1,10 @@
+name: Florsheim
+homepage: florsheim.com
+tags:
+- Shoes
+- Dress
+- Casual
+widths:
+- name: Narrow
+  stocked: true
+  models: some
