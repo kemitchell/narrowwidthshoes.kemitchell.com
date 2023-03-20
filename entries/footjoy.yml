@@ -1,0 +1,10 @@
+name: Footjoy
+homepage: footjoy.com
+tags:
+- Shoes
+- Athletic
+- Golf
+widths:
+- name: Narrow
+  stocked: true
+  models: some
