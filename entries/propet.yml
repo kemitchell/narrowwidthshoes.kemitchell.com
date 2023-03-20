@@ -1,0 +1,16 @@
+name: Propét
+homepage: propetfootwear.com
+tags:
+- Shoes
+- Casual
+- Athletic
+widths:
+- name: Narrow (B)
+  stocked: true
+  models:
+  - name: Stability Walker
+  - name: Stability Walker Strap
+  - name: Stability X
+  - name: Stability X Strap
+  - name: Stability Fly
+  - name: Villager
