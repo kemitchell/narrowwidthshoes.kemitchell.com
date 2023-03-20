@@ -5,6 +5,7 @@ h2 {
 
 nav a {
   display: inline-block;
+  margin: 0 1ex;
 }
 
 tbody td, tbody th,
