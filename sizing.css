@@ -1,0 +1,29 @@
+table {
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.brannock {
+  font-size: 125%;
+}
+
+td, th {
+  padding: 0.5ex 1ex;
+}
+
+thead {
+  vertical-align: bottom;
+}
+
+tbody {
+  vertical-align: top;
+}
+
+tbody tr:hover,
+col:hover {
+  background: lightyellow;
+}
+
+:target {
+  background: lightblue;
+}
