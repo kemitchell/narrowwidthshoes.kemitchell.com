@@ -13,10 +13,10 @@ tags:
 widths:
 - name: A
   stocked: false
-  models: fall
+  models: all
 - name: B
   stocked: false
-  models: fall
+  models: all
 - name: C
   stocked: false
-  models: fall
+  models: all

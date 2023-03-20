@@ -13,9 +13,9 @@ widths:
     page: https://www.bellevilleboot.com/index.php?l=product_detail&p=136
   - name: C390
     page: https://www.bellevilleboot.com/index.php?l=product_detail&p=128
-  - name: 700
+  - name: "700"
     page: https://www.bellevilleboot.com/index.php?l=product_detail&p=8
-  - name: 590
+  - name: "590"
     page: https://www.bellevilleboot.com/index.php?l=product_detail&p=96
-  - name: 770
+  - name: "770"
     page: https://www.bellevilleboot.com/index.php?l=product_detail&p=10

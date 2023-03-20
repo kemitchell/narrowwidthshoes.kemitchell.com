@@ -17,7 +17,7 @@ const files = glob.sync('entries/*.yml')
 for (const file of files) {
   const entry = loadYAMLFile(file)
   validate(entry)
-  assert.equal(validate.errors, null)
+  assert.equal(validate.errors, null, `${file} conforms to schema`)
 }
 
 function loadYAMLFile (file) {

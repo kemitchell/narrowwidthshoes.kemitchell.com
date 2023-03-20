@@ -22,7 +22,7 @@ widths:
 - name: AA
   models: some
   stocked: true
-  sizes: 10–12, 13, 14
+  #sizes: 10–12, 13, 14
 - name: A
   models: some
   stocked: true
