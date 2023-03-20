@@ -1,0 +1,22 @@
+name: L.L. Bean
+homepage: llbean.com
+tags:
+- Boots
+- Casual
+- Winter
+widths:
+- name: Narrow
+  stocked: true
+  models:
+  - name: 8″ Bean Boot
+    page: https://www.llbean.com/llb/shop/31179
+  - name: Rubber Moc Bean Boot
+    page: https://www.llbean.com/llb/shop/19067
+  - name: 6″ Bean Boot
+    page: https://www.llbean.com/llb/shop/31178
+  - name: 8″ GORE-TEX Bean Boot
+    page: https://www.llbean.com/llb/shop/35487
+  - name: 8″ Insulated Bean Boot
+    page: https://www.llbean.com/llb/shop/123967
+  - name: Cresta
+    page: https://www.llbean.com/llb/shop/14774
