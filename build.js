@@ -123,7 +123,7 @@ function toID (string) {
   return string.toLowerCase()
     .replace(/é/g, 'e')
     .replace(/[^a-z ]/g, '')
-    .replace(/ /g, '-')
+    .replace(/ +/g, '-')
 }
 
 function renderMarkdown (string) {
