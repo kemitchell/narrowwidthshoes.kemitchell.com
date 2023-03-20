@@ -1,0 +1,13 @@
+name: Sperry
+homepage: sperry.com
+tags:
+- Shoes
+- Casual
+widths:
+- name: Slim
+  stocked: true
+  models:
+  - name: Canoe
+    page: https://www.sperry.com/en/mako-canoe-moc-boat-shoe/10834M.html?dwvar_10834M_color=0764043
+  - name: Original Boat Shoe
+    page: https://www.sperry.com/en/authentic-original-boat-shoe/10118M.html?dwvar_10118M_color=0197640
