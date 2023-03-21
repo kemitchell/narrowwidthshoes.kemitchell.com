@@ -1,0 +1,11 @@
+name: Truman Boot Co.
+homepage: trumanboot.com
+tags:
+- Boots
+- Casual
+- Made in the USA
+widths:
+- name: B
+  stocked: false
+  models:
+  - name: boots on their 79 last
