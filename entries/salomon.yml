@@ -1,0 +1,8 @@
+name: Salomon
+tags:
+- Shoes
+- Running
+widths:
+- name: Slim
+  stocked: true
+  models: some
