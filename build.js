@@ -55,13 +55,14 @@ function byName (a, b) {
   return a.name.toLowerCase().localeCompare(b.name.toLowerCase())
 }
 
-function renderEntry ({ file, name, homepage, tags, widths, updated }) {
+function renderEntry ({ file, name, homepage, tags, widths, notes, updated }) {
   return `
 <li id="${toID(name)}">
   <h2>${escape(name)}</h2>
   <a href="https://${escape(homepage)}">${escape(homepage)}</a>
   <ul class=tags>${tags.map(tag => `<li>${escape(tag)}</li>`).join('')}</ul>
   ${renderWidths(widths)}
+  ${notes ? renderNotes(notes) : ''}
   <p class=updated>Last Updated ${escape(new Date(updated).toLocaleDateString('en-us', { timeZone: 'UTC', dateStyle: 'long' }))}</p>
   <p class=edit><a href="https://github.com/kemitchell/narrowwidthshoes.kemitchell.com/edit/main/${file}">Edit data file on GitHub</a></p>
 </li>
@@ -80,6 +81,10 @@ function renderWidths (widths) {
   ${widths.map(renderWidthRow).join('')}
 </table>
   `.trim()
+}
+
+function renderNotes (markup) {
+  return `<section class=notes>${renderMarkdown(markup)}</section>`
 }
 
 function renderWidthRow (width) {

@@ -41,3 +41,5 @@ properties:
                 page:
                   type: string
                   format: url
+  notes:
+    type: string
