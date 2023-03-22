@@ -1,5 +1,8 @@
 name: ASICS
 homepage: asics.com
+tags:
+- Shoes
+- Running
 widths:
 - name: Narrow (B)
   stocked: true
