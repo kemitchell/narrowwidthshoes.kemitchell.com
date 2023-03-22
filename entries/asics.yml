@@ -1,0 +1,8 @@
+name: ASICS
+homepage: asics.com
+widths:
+- name: Narrow (B)
+  stocked: true
+  models:
+  - name: Gel-Quantum 360 6
+    page: https://www.asics.com/us/en-us/gel-quantum-360-6/p/ANA_1022A263-020.html
