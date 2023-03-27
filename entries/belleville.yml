@@ -9,9 +9,9 @@ widths:
 - name: N
   stocked: true
   models:
-  - name: C790
+  - name: "C790"
     page: https://www.bellevilleboot.com/index.php?l=product_detail&p=136
-  - name: C390
+  - name: "C390"
     page: https://www.bellevilleboot.com/index.php?l=product_detail&p=128
   - name: "700"
     page: https://www.bellevilleboot.com/index.php?l=product_detail&p=8
@@ -19,3 +19,11 @@ widths:
     page: https://www.bellevilleboot.com/index.php?l=product_detail&p=96
   - name: "770"
     page: https://www.bellevilleboot.com/index.php?l=product_detail&p=10
+notes: |
+  For insulated boots, try Brannock + ½
+
+  For wet weather boots that are waterproof but not insulated, try Brannock without adjustment.
+
+  For minimalist hot weather boots, try Brannock + ½
+
+  For hot weather boots, try Brannock − ½
