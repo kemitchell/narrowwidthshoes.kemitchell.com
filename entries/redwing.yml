@@ -14,16 +14,12 @@ tags:
 widths:
 - name: AAA
   models: some
-  stocked: true
 - name: AA
   models: some
-  stocked: true
 - name: A
   models: some
-  stocked: true
 - name: B
   models: some
-  stocked: true
 - name: C
   models: some
-  stocked: true
+

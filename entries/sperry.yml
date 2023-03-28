@@ -5,7 +5,6 @@ tags:
 - Casual
 widths:
 - name: Slim
-  stocked: true
   models:
   - name: Canoe
     page: https://www.sperry.com/en/mako-canoe-moc-boat-shoe/10834M.html?dwvar_10834M_color=0764043

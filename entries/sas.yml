@@ -9,8 +9,6 @@ tags:
 - Made in the USA
 widths:
 - name: Narrow
-  stocked: true
   models: some
 - name: Slim
-  stocked: true
   models: some

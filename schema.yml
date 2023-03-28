@@ -22,9 +22,6 @@ properties:
         name:
           type: string
           minLength: 1
-        stocked:
-          title: Stocked
-          type: boolean
         models:
           title: Models
           anyOf:

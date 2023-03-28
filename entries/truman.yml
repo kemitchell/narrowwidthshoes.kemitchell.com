@@ -7,7 +7,6 @@ tags:
 - Goodyear Welt
 widths:
 - name: B
-  stocked: false
   models:
   - name: boots on their 79 last
     page: https://www.trumanboot.com/collections/in-stock-boots/79

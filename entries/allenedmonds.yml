@@ -13,25 +13,19 @@ tags:
 widths:
 - name: AAAA
   models: some
-  stocked: true
   #sizes: 8½–16
 - name: AAA
   models: some
-  stocked: true
   #sizes: 10–12, 13, 14
 - name: AA
   models: some
-  stocked: true
   #sizes: 10–12, 13, 14
 - name: A
   models: some
-  stocked: true
   #sizes: 9–12, 13, 14
 - name: B
   models: some
-  stocked: true
   #sizes: 8–12, 13, 14, 15
 - name: C
   models: some
-  stocked: true
   #sizes: 8–12, 13, 14, 15

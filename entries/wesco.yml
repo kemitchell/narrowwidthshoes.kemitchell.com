@@ -12,11 +12,8 @@ tags:
 - Stitchdown
 widths:
 - name: A
-  stocked: false
   models: all
 - name: B
-  stocked: false
   models: all
 - name: C
-  stocked: false
   models: all

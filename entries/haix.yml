@@ -8,7 +8,6 @@ tags:
 - Europe
 widths:
 - name: Narrow
-  stocked: true
   models:
   - name: Missoula 2.1
     page: https://www.haixusa.com/haix-missoula-2.1
