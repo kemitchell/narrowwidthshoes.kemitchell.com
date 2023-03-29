@@ -1,0 +1,10 @@
+name: Salomon
+homepage: salomon.com
+tags:
+- Shoes
+- Athletic
+- Running
+widths:
+- name: Slim
+  models: some
+notes: According to Salomon customer service, “The narrow corresponds to the Brannock width A.” (e-mail of March 29, 2023)
