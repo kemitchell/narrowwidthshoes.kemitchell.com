@@ -1,0 +1,11 @@
+name: Crockett & Jones
+homepage: crockettandjones.com
+tags:
+- Shoes
+- Dress
+widths:
+- name: C
+  stocked: true
+  models:
+  - name: Radstock
+    page: https://www.crockettandjones.com/products/radstock-black-calf-c
