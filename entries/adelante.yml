@@ -1,0 +1,10 @@
+name: Adelante
+homepage: adelanteshoes.com
+tags:
+- Shoes
+- Boots
+- Dress
+- Casual
+widths:
+- name: C
+  models: some
