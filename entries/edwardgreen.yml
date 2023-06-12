@@ -8,3 +8,5 @@ tags:
 widths:
 - name: C
   models: some
+- name: D
+  models: some
