@@ -1,7 +1,7 @@
 import * as commonmark from 'commonmark'
 import escape from 'escape-html'
 import fs from 'node:fs'
-import glob from 'glob'
+import { globSync } from 'glob'
 import yaml from 'js-yaml'
 import { spawnSync } from 'node:child_process'
 
@@ -14,7 +14,7 @@ for (const [key, subschema] of Object.entries(widthProperties)) {
   widthColumns.push({ key, header: subschema.title, subschema })
 }
 
-const entries = glob.sync('entries/*.yml')
+const entries = globSync('entries/*.yml')
   .map(file => {
     const entry = loadYAMLFile(file)
     entry.file = file
