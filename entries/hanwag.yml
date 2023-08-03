@@ -1,0 +1,12 @@
+name: Hanwag
+homepage: hanwag.com
+tags:
+- Boots
+- Work
+- Hiking
+- Europe
+widths:
+- name: Narrow
+  models:
+  - name: boots on their narrow last
+    page: https://www.hanwag.com/us/en-us/our-story/the-hanwag-fit
