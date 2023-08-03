@@ -1,0 +1,12 @@
+name: Barker
+homepage: barkershoes.com
+tags:
+- Shoes
+- Dress
+- England
+widths:
+- name: E Fitting
+  stocked: true
+  models:
+  - name: Arnold
+    page: https://us.barkershoes.com/products/arnold-black-hi-shine
