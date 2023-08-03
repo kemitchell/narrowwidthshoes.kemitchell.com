@@ -115,9 +115,13 @@ function renderWidthRow (width) {
 function renderModels (models) {
   return `
 <ul class=models>
-  ${models.map(({ name, page }) => `<li><a href="${escape(page)}">${escape(name)}</a></li>`).join('')}
+  ${models.map(model => `<li>${renderModel(model)}</li>`).join('')}
 </ul>
   `.trim()
+}
+
+function renderModel ({ name, page, description }) {
+  return `<a href="${escape(page)}>${escape(name)}</a>${description ? ` (${description}` : ''}`
 }
 
 function loadYAMLFile (file) {
