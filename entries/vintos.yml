@@ -7,3 +7,6 @@ tags:
 widths:
 - name: C
   models: some
+- name: Custom
+notes:
+- Produce narrower widths by building up smaller lasts for a surcharge.
