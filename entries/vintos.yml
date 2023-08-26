@@ -6,7 +6,8 @@ tags:
 - Military
 widths:
 - name: C
-  models: some
+  models: all
 - name: Custom
-notes:
-- Produce narrower widths by building up smaller lasts for a surcharge.
+  models: all
+notes: |
+  Produce narrower widths by building up smaller lasts for a surcharge.
