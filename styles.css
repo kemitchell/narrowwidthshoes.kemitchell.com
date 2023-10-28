@@ -37,8 +37,8 @@ th:last-child {
 
 .entries > li {
   border: 1px solid black;
-  padding: 1em;
   margin: 1rem 0;
+  padding: 1em;
 }
 
 .tags {
