@@ -1,0 +1,12 @@
+name: Kenetrek
+homepage: kenetrek.com
+tags:
+- Boots
+- Shoes
+- Outdoor
+- Made in Italy
+widths:
+- name: Narrow
+  models:
+  - name: Hardscrabble
+    page: https://kenetrek.com/products/hardscrabble-hiker
