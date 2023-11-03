@@ -1,0 +1,17 @@
+name: LOWA
+homepage: altberg.co.uk
+tags:
+- Boots
+- Shoes
+- Hiking
+- Outdoor
+- Made in UK
+widths:
+- name: Narrow
+  models:
+  - name: Fremington
+    page: https://www.altberg.co.uk/boots/5-width-fitting-boots/fremington-men
+  - name: Tethera
+    page: https://www.altberg.co.uk/boots/5-width-fitting-boots/tethera-men
+  - name: Mallerstang
+    page: https://www.altberg.co.uk/boots/5-width-fitting-boots/mallerstang1
