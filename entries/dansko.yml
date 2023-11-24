@@ -1,0 +1,11 @@
+name: Dansko
+homepage: dansko.com
+tags:
+- Clogs
+widths:
+- name: Narrow
+  models:
+    - name: Narrow Pro
+      page: https://dansko.com/collections/mens/products/narrow-pro-antique-brown-blk?_pos=1&_fid=c88122886&_ss=c&variant=40366097039402
+    - name: Narrow Pro
+      page: https://dansko.com/collections/mens/products/narrow-pro-black-oiled?_pos=2&_fid=c88122886&_ss=c&variant=40366097727530
