@@ -6,6 +6,6 @@ tags:
 - Work
 widths:
 - name: B
-  models:
-  - name: Rush
-    page: https://www.justinboots.com/en/rush-11-inch-waterproof-work-boot-15490.html
+  models: some
+notes: >
+  See [this search page](https://www.justinboots.com/en/men/?prefn1=width&prefv1=B&page=all).
