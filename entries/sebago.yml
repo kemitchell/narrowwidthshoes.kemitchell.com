@@ -1,0 +1,10 @@
+name: Sebago
+homepage: sebago-usa.com
+tags:
+- Casual
+- Dress
+widths:
+- name: Slim
+  models: some
+notes: >
+  See [this search page](https://sebago-usa.com/collections/all-mens-shoes?filter.v.option.width=Slim).
