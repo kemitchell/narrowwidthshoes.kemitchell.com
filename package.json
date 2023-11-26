@@ -6,7 +6,7 @@
     "ajv-formats": "^2.1.1",
     "commonmark": "^0.30.0",
     "escape-html": "^1.0.3",
-    "glob": "^10.3.3",
+    "glob": "^10.3.10",
     "js-yaml": "^4.1.0"
   },
   "scripts": {
