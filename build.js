@@ -122,9 +122,9 @@ function renderModels (models) {
 
 function renderModel ({ name, page, description }) {
   if (page) {
-    return `${escape(name)}${description ? ` (${description})` : ''}`
-  } else {
     return `<a href="${escape(page)}">${escape(name)}</a>${description ? ` (${description})` : ''}`
+  } else {
+    return `${escape(name)}${description ? ` (${description})` : ''}`
   }
 }
 
