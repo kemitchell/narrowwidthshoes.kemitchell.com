@@ -1,8 +1,8 @@
 name: Sebago
 homepage: sebago-usa.com
 tags:
+- Shoes
 - Casual
-- Dress
 widths:
 - name: Slim
   models: some
