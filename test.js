@@ -2,7 +2,7 @@ import Ajv from 'ajv'
 import addFormats from 'ajv-formats'
 import assert from 'node:assert'
 import fs from 'node:fs'
-import glob from 'glob'
+import { globSync } from 'glob'
 import yaml from 'js-yaml'
 
 const ajv = new Ajv({ allErrors: true })
@@ -13,7 +13,7 @@ ajv.validateSchema(schema)
 assert.equal(ajv.errors, null)
 const validate = ajv.compile(schema)
 
-const files = glob.sync('entries/*.yml')
+const files = globSync('entries/*.yml')
 for (const file of files) {
   const entry = loadYAMLFile(file)
   validate(entry)

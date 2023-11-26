@@ -38,5 +38,7 @@ properties:
                 page:
                   type: string
                   format: url
+                description:
+                  type: string
   notes:
     type: string

@@ -121,7 +121,11 @@ function renderModels (models) {
 }
 
 function renderModel ({ name, page, description }) {
-  return `<a href="${escape(page)}">${escape(name)}</a>${description ? ` (${description})` : ''}`
+  if (page) {
+    return `${escape(name)}${description ? ` (${description})` : ''}`
+  } else {
+    return `<a href="${escape(page)}">${escape(name)}</a>${description ? ` (${description})` : ''}`
+  }
 }
 
 function loadYAMLFile (file) {
