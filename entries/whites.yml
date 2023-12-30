@@ -14,8 +14,8 @@ tags:
 - Stitchdown
 widths:
 - name: A
-  models: all
+  models: some
 - name: B
-  models: all
+  models: some
 - name: C
-  models: all
+  models: some
