@@ -26,6 +26,7 @@ properties:
           title: Models
           anyOf:
           - const: some
+          - const: made to order
           - const: all
           - type: array
             items:
