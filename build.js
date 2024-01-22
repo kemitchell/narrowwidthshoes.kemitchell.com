@@ -102,7 +102,7 @@ function renderWidthRow (width) {
     } else if (key === 'models') {
       const models = width[key]
       return typeof models === 'string'
-        ? `<td>${models[0].toUpperCase() + models.slice(1)}</td>`
+        ? `<td>${escape(models)}</td>`
         : `<td>${renderModels(models)}</td>`
     } else {
       return ''
