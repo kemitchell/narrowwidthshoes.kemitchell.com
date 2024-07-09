@@ -101,9 +101,14 @@ function renderWidthRow (width) {
       return `<td>${display}</td>`
     } else if (key === 'models') {
       const models = width[key]
-      return typeof models === 'string'
-        ? `<td>${escape(models)}</td>`
-        : `<td>${renderModels(models)}</td>`
+      if (typeof models === 'string') {
+        if (width.page) {
+          return `<td><a href="${escape(width.page)}">${escape(models)}</a></td>`
+        } else {
+          return `<td>${escape(models)}</td>`
+        }
+      }
+      return `<td>${renderModels(models)}</td>`
     } else {
       return ''
     }

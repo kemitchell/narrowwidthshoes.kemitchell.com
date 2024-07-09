@@ -41,5 +41,8 @@ properties:
                   format: url
                 description:
                   type: string
+        page:
+          type: string
+          format: url
   notes:
     type: string
