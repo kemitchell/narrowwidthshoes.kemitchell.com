@@ -11,6 +11,7 @@ const widthProperties = schema.properties.widths.items.properties
 const widthColumns = []
 for (const [key, subschema] of Object.entries(widthProperties)) {
   if (key === 'name') continue
+  if (key === 'page') continue
   widthColumns.push({ key, header: subschema.title, subschema })
 }
 
