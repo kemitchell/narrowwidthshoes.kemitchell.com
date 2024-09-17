@@ -1,0 +1,12 @@
+name: J.W.
+homepage: jwbootcompany.com
+tags:
+- Boots
+- Western
+widths:
+- name: B
+  models:
+  - name: Ferdinand
+    page: https://www.jwbootcompany.com/product-page/ferdinand
+  - name: Ithaca
+    page: https://www.jwbootcompany.com/product-page/copy-of-the-votary-of-the-blue-boot-in-oiled-kid-leather
