@@ -1,0 +1,19 @@
+name: Rod Patrick Bootmakers
+homepage: rodpatrickftworth.com
+tags:
+- Boots
+- Western
+- Work
+widths:
+- name: AAAA
+  models: all
+- name: AAA
+  models: all
+- name: AA
+  models: all
+- name: A
+  models: all
+- name: B
+  models: all
+- name: C
+  models: all
