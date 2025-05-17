@@ -1,0 +1,16 @@
+name: Minnetonka
+tags:
+- Shoes
+- Slippers
+- Moccasins
+- Driving Shoes
+homepage: minnetonkamoccasin.com
+widths:
+- name: N
+  models:
+  - name: P.W. Driving Loafter
+    page: https://www.minnetonkamoccasin.com/men/styles/moccasins/p-w-driving-loafer-the-original
+  - name: P.W. Driving Moc
+    page: https://www.minnetonkamoccasin.com/men/styles/moccasins/p-w-driving-moc-the-original
+  - name: P.W. Softsole Driving Loafer
+    page: https://www.minnetonkamoccasin.com/men/styles/moccasins/pw-softsole-men
